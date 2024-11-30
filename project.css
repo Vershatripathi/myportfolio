@@ -1,0 +1,119 @@
+.nav{
+    color: white;
+    background-color: rgb(7, 7, 83);
+    font-size: 25px;
+    height: 100px;
+   align-items: center;
+   justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.projects h2{
+    font-size: 35px;
+    text-decoration: underline;
+    color: white;
+    background-color: rgb(6, 6, 97);
+    margin-top: 10px !important;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px !important;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height:100vh;
+    border-radius: 10px;
+    background: linear-gradient(rgb(220, 88, 200),rgb(137, 118, 209));
+}
+.card1{
+    height: 60vh;
+    width:23%;
+    margin-top: 90px;
+    background-color: rgb(19, 13, 66);
+    border: 2px solid rgb(47, 43, 43);
+    border-radius: 7px;
+}
+.card1:hover{
+    box-shadow: 5px 5px 5px rgb(81, 67, 67) ;
+    cursor: pointer;
+}
+.card1 img{
+    height: 50vh;
+    width:100%;
+    border-radius: 5px;
+}
+button{
+    background-color: pink;
+    height: 35px;
+    width: 50%;
+    margin-left:66px;
+    margin-top: 10px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover{
+  font-size: 20px;
+}
+a{
+    color: rgb(13, 13, 77);
+    text-decoration: none;
+}
+@media screen and (max-width:456px){
+    .nav{
+        width: 100vw;
+        display: flex;
+        overflow-x: scroll;
+        align-items: center;
+        justify-content: start;
+        scrollbar-color: none;
+        scroll-behavior: smooth;
+    }
+    .nav ul li{
+        margin-left: 15px;
+    }
+    .nav h3{
+        display: none;
+    }
+    .projects{
+        width: 100vw;
+    }
+    .cards{
+        height: 100%;
+        display: flex;
+        padding-bottom: 10px;
+        flex-wrap: wrap;
+    }
+    .card1{
+        height: 30vh;
+        width: 42%;
+        margin-top: 20px;
+    }
+    .card1 img{
+        height: 25vh;
+    }
+    button{
+      margin-left: 46px;
+      width: 50px;
+      border-radius: 10px;
+      height: 23px;
+      margin-top: 2px;
+    }
+}

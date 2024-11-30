@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    background-color: rgb(41, 40, 40);
+   color: white;
+   height: 100vh;
+}
+.nav{
+    color: white;
+    background-color: rgb(7, 7, 83);
+    font-size: 25px;
+    height: 100px;
+   align-items: center;
+   justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    color:pink;
+    text-align: center;
+    font-size: 55px;
+    text-decoration: underline;
+    margin-top: 0 !important;
+    padding-top: 20px;
+}
+p{
+    font-size: 20px;
+    margin-left: 160px;
+}
+.con{
+    width: 50%;
+    border: 2px solid white;
+    height: 80vh;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    margin-left: 25%;
+    background-color: rgb(86, 11, 81);
+}
+.container{
+    width: 50%;
+    height: 30px;
+    color: white;
+    margin-left: 160px;
+    border-radius: 5px;
+    background-color: #4b78ea;
+}
+.skills{
+    text-align: right;
+    padding-top: 0px;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    color: black;
+}
+.html{
+    width: 90%;
+    height: 20px;
+    background-color: rgb(216, 216, 22);
+}
+.css{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(216, 216, 22);
+}
+.js{
+    width: 40%;
+    height: 20px;
+    background-color: rgb(216, 216, 22);
+}
+.c{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(216, 216, 22);
+}
+.java{
+    width: 60%;
+    height: 20px;
+    background-color: rgb(216, 216, 22);
+}
+.py{
+    width: 60%;
+    height: 20px;
+    background-color: rgb(216, 216, 22);
+}
+.xl{
+    width: 60%;
+    height: 20px;
+    background-color: rgb(216, 216, 22);
+}
+.bi{
+    width: 60%;
+    height: 20px;
+    background-color: rgb(216, 216, 22);
+}
+.react{
+    width: 30%;
+    height: 20px;
+    background-color: rgb(216, 216, 22);
+}
+.comm{
+    width: 90%;
+    height: 20px;
+    background-color: rgb(216, 216, 22);
+}
+.dsa{
+    
+    width: 60%;
+    height: 20px;
+    background-color: rgb(216, 216, 22);
+}
+@media screen and (max-width:456px) {
+    .nav{
+width: 100vw;
+display: flex;
+overflow-x: scroll;
+height: 50px;
+        justify-content: start;
+        align-items: center;
+        scrollbar-color: none;
+        scroll-behavior: smooth;
+    }
+    .nav ul li{
+        margin-left: 15px;
+        font-size: 17px;
+    }
+    h3{
+        display: none;
+        
+    }
+    h1{
+        font-size: 20px;
+    }
+    p{
+        margin-left: 20px;
+    }
+    .container{
+        width: 83%;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .cont{
+        width: 100vw;
+    }
+    .con{
+        width: 80%;
+        margin:0 auto;
+    }
+}
